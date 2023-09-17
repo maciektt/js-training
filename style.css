@@ -1,0 +1,257 @@
+body{
+    background: rgb(27,36,97);
+    background: linear-gradient(90deg, rgba(27,36,97,0.9037990196078431) 15%, rgba(44,147,241,1) 47%, rgba(14,14,14,1) 100%);
+}
+.container{
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+
+}
+
+
+.screen{
+    color: black;
+    background-color: yellow;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+    border-radius:14px ;
+    font-family:cursive ;
+    font-weight: 600;
+    font-size: 25px;
+    border: solid black 3px;
+}
+input{
+    width:100px;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(230, 209, 209);
+    border-radius: 3%;
+    font-family: cursive;
+}
+.inputs{
+    padding: 1rem;
+}
+.znaki{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 1rem;
+    
+}
+.znak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid black 2px;
+    width: 60px;
+    height: 60px;
+    font-size: 3rem;
+    border-radius: 15px;
+    font-family: monospace;
+}
+.oblicz{
+    font-size: 3rem;
+    background-color: yellow ;
+    width: 25%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: cursive;
+    border: solid black 3px;
+}
+
+.oblicz:hover{
+    transform: scale(1.03);
+    color: red;
+    
+    cursor: pointer;
+}
+
+.znak:hover{   
+    /* transform: scale(1.07); */
+    color: red;
+    transition: 0.25s;
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+}
+.screen:hover{
+    cursor:pointer ;
+}
+
+.active-btn{
+    background-color: rgb(192, 192, 192);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
